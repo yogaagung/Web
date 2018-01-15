@@ -1,0 +1,133 @@
+@media only screen and (max-width: 992px) {
+  .brand-logo {
+    font-size: 20px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  margin: 0;padding: 0;
+}
+main {
+    flex: 1 0 auto;
+}
+a{
+  color: black;
+}
+
+nav .nav-wrapper .brand-logo{
+  margin-left: 20px;
+}
+
+hr{
+  margin: 3px 0 3px 0;
+}
+
+.kontenRight{
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+.kontenRight .deskripsi{
+  text-overflow:ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow:ellipsis;
+}
+.kontenRight .deskripsi span{
+  font-weight: 300;
+}
+.isiKonten{
+  margin: 0;
+}
+
+.konten .card-content{
+  padding: 7px;
+}
+.konten img{
+  display: block;
+  width: 100%;
+  height: 130px;
+}
+.konten .judulx{
+  font-weight: 400;
+  display: inline;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.judulx a:hover{
+  color: #009688;
+}
+.konten span{
+  font-weight: bold;
+  font-size: 13px;
+}
+.konten p{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display: inline-block;
+  margin: 7px 0 0 0;
+  height: 45%;
+}
+.kontenc{
+  text-align: center;
+}
+
+.pagination a:hover{
+  color: #009688;
+}
+
+.card .card-content{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.rec_post li{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px 0 4px 0;
+}
+
+.rec_post li a{
+  white-space: nowrap;
+  padding: 5px;
+  font-weight: 300;
+}
+
+.rec_post a:hover{
+  transition: all 0.1s;
+  padding-left: 7px;
+  border-left: 7px solid #009688;
+  background-color: #00796b;
+  color: white;
+  font-weight: 500;
+}
+
+.divider{
+  margin-bottom: 10px;
+}
+
+.adminPic{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.pagination{
+  text-align: center;
+}
+
+.customSearch{
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+}
+body main .container .row .input-field .customInput{
+  color:#009688;
+  font-size:18px;
+  font-weight:300;
+  box-sizing:border-box;
+}
